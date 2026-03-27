@@ -904,7 +904,7 @@ function sendWhatsApp() {
   let msg = '¡Hola! Me gustaría hacer el siguiente pedido 4Life:\n\n';
   cart.forEach(i => { msg += `• ${i.name} x${i.qty} — $${(i.price * i.qty).toFixed(2)}\n`; });
   msg += `\n*Total: $${total.toFixed(2)}*\n\n¿Pueden confirmar disponibilidad y forma de pago?`;
-  window.open(`https://wa.me/8098565493?text=${encodeURIComponent(msg)}`, '_blank');
+  window.open(`https://wa.me/18098565493?text=${encodeURIComponent(msg)}`, '_blank');
 }
 
 // ── WISHLIST ──
